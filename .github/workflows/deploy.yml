@@ -1,0 +1,23 @@
+name: "Deploy to AWS"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+    - name: "Setup Node.js"
+      uses: actions/setup-node@v4
+      with:
+        node-version: "20"
+
+    - name: "Checkout code"
+      uses: actions/checkout@v2
+
+    - name: "Install dependencies"
+      run: npm install --legacy-peer-deps
+
+    - name: "Deploy to AWS"
+      run: pm2 start ecosystem.config.js
