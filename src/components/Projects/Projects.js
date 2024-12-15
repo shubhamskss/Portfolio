@@ -77,8 +77,12 @@ function Projects() {
   <ProjectCard
     imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7B_Bwg1y8GUxvG26rItPLdE5Z78LQfHi0cQ&s"}  
     isBlog={false}
-    title="Book Management"
-    description="Developed a Book Management system allowing users to add, edit, delete, and view books. The project implements CRUD operations for managing books and user authentication using JWT. It also uses MongoDB for data storage and Express.js for handling API requests."
+    title="Open to Intern Project"
+    description={`Created an Open to Intern project backend with the following features:
+    - Developed a database using **MongoDB** for storing and managing data efficiently.
+    - Implemented RESTful API endpoints using **Express.js** to handle CRUD operations.
+    - Integrated user authentication and authorization using **JWT** for secure access.
+    - Ensured the backend follows best practices for scalability and maintainability.`}
     ghLink="https://github.com/shubhamskss/-open-to-intern/tree/project/internshipGroupX"  
     demoLink="https://github.com/shubhamskss/-open-to-intern/tree/project/internshipGroupX" 
   />
