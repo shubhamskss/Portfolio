@@ -1,9 +1,24 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiGit } from "react-icons/di";
-import { SiRedis, SiMysql, SiTypescript, SiDocker, SiGithub, SiGitlab } from "react-icons/si";
-import { FaAws } from "react-icons/fa"; 
-import { IoLogoNodejs } from "react-icons/io"; 
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiGit,
+} from "react-icons/di";
+import {
+  SiRedis,
+  SiMysql,
+  SiTypescript,
+  SiDocker,
+  SiGithub,
+  SiGitlab,
+  SiElasticsearch,
+  SiBitbucket,
+} from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { IoLogoNodejs } from "react-icons/io";
 
 function Techstack() {
   return (
@@ -15,7 +30,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <IoLogoNodejs /> 
+        <IoLogoNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -43,6 +58,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBitbucket />
       </Col>
     </Row>
   );

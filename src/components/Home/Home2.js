@@ -19,51 +19,72 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am <span className="purple">Shubham Kumar Singh</span>, a passionate software developer with a B.Tech degree and a deep love for programming.
+              I am <span className="purple">Shubham Kumar Singh</span>, a
+              passionate Software Developer from{" "}
+              <span className="purple">Lohardaga, Jharkhand, India</span>, with
+              a B.Tech degree and strong enthusiasm for backend technologies.
               <br />
               <br />
-              My primary focus and major contributions lie in <i><b className="purple">backend development</b></i>, where I work extensively with 
-              <i><b className="purple"> JavaScript, Node.js,</b></i> and <i><b className="purple">TypeScript</b></i>.
+              My core expertise lies in{" "}
+              <b className="purple">software development</b>, where I work
+              extensively with{" "}
+              <b className="purple">
+                JavaScript, Node.js, MySQL, MongoDB, ElasticSearch
+              </b>{" "}
+              and <b className="purple">Redis</b>.
               <br />
-              <br />
-              I have expertise in designing and implementing scalable systems, and I am skilled in working with:
+              <br />I am well-versed in designing scalable systems and love
+              working with:
               <ul>
                 <li>
-                  Cloud services like <i><b className="purple">AWS EC2</b></i> and <i><b className="purple">S3</b></i>.
+                  <b className="purple">Cloud:</b> AWS EC2, S3
                 </li>
                 <li>
-                  Databases such as <i><b className="purple">MongoDB, MySQL,</b></i> and <i><b className="purple">Redis</b></i>.
+                  <b className="purple">Databases:</b> MongoDB, MySQL,
+                  ElasticSearch, Redis
                 </li>
                 <li>
-                  Version control systems like <i><b className="purple">Git</b></i>.
+                  <b className="purple">Version Control:</b> Git
+                </li>
+                <li>
+                  <b className="purple">Dev Tools:</b> Docker, Socket.io,
+                  Firebase
+                </li>
+                <li>
+                  <b className="purple">Frontend:</b> React.js, Pug, EJS
                 </li>
               </ul>
-              On the frontend, I am proficient with 
-              <i><b className="purple"> React.js</b></i>, and I have experience with templating engines like 
-              <i><b className="purple"> Pug</b></i> and <i><b className="purple"> EJS</b></i>.
+              <br />
+              Currently, I work as a{" "}
+              <b className="purple">Software Developer</b> at{" "}
+              <b className="purple">sarv.com</b>, where I build robust APIs,
+              scalable backend solutions, and efficient systems for managing
+              high-volume traffic products.
               <br />
               <br />
-              Additionally, I have worked with tools like <i><b className="purple">Docker</b></i>, 
-              <i><b className="purple">Socket.io</b></i>, and <i><b className="purple">Firebase</b></i> for real-time communication and notifications.
+              Previously, I was a developer at{" "}
+              <b className="purple">Gopaisa Netventures Pvt Ltd</b>, focusing on
+              backend/API development, database architecture, and intuitive
+              admin panel creation.
               <br />
               <br />
-              Currently, as a Software Developer at <span className="purple">Gopaisa Netventures</span>, I am responsible for backend and API development, database design, and creating intuitive user management panels for streamlined product management.
-              <br />
-              <br />
-              I am always excited to tackle new challenges, learn emerging technologies, and collaborate with teams to deliver impactful solutions.
+              I’m always excited about learning new technologies, solving real
+              problems, and delivering impactful software solutions.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -71,21 +92,23 @@ function Home2() {
                   href="https://github.com/shubhamskss/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/shubham-kumar-singh-techie"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/shubhamkumar6742"
