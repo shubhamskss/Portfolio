@@ -25,7 +25,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <IoLogoNodejs /> 
+        <IoLogoNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -62,6 +62,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBitbucket />
       </Col>
     </Row>
   );
