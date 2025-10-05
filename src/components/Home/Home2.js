@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <b>PROFESSIONAL SUMMARY</b>
+              
               <br />
               Software Engineer with 3+ years of experience, including ~2.5 years at <span className="purple">Gopaisa Netventures</span> and currently at <span className="purple">Sarv.com</span>. Skilled in developing scalable, high-performance backend systems and microservices, and proficient in JavaScript, Node.js, and distributed system design. Expertise in API integrations, system reliability, and performance optimization.
               <br />
